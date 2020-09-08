@@ -6,7 +6,14 @@ namespace KlasserModellering
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Fotball theOtherBall = new Fotball();
+            Fotball theBall = new Fotball();
+
+            theBall.x = 100;
+
+            System.Console.WriteLine(theOtherBall.x);
+
+            Console.ReadLine();
         }
     }
 }
